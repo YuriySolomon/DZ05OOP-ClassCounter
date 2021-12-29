@@ -24,10 +24,10 @@ public:
 	int GetMinimum() const;
 	int GetStep() const;
 
-	void ShowCounter(); //показ инфорсации о счетчике
-	void MoreCounterOne(); //увеличение текущего значения счётчика на 1
-	void MoreCounter(int number); //увеличение значения на заданную величину 
-	void ResetCounter(); //сброс (обнуление) счётчика
+	void ShowCounter(); // показ инфорсации о счетчике
+	void MoreCounterOne(); // увеличение текущего значения счётчика на 1
+	void MoreCounter(int number); // увеличение значения на заданную величину 
+	void ResetCounter(); // сброс (обнуление) счётчика
 
 };
 
