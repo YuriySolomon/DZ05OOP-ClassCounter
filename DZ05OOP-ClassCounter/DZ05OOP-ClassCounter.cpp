@@ -16,6 +16,8 @@ int main()
     Counter c2 = c1;
     c2.SetStep(10);
     c2.ShowCounter();
+    c2.SetStep(11);
+    c2.ShowCounter();
     cout << "\n";
        
     system("pause >> NULL");
